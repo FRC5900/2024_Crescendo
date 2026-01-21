@@ -1,0 +1,176 @@
+{
+  "version": 1.0,
+  "startingPose": {
+    "position": {
+      "x": 1.4188888528152999,
+      "y": 5.493438956802725
+    },
+    "rotation": 180.0
+  },
+  "command": {
+    "type": "sequential",
+    "data": {
+      "commands": [
+        {
+          "type": "parallel",
+          "data": {
+            "commands": [
+              {
+                "type": "path",
+                "data": {
+                  "pathName": "Path 2.0"
+                }
+              },
+              {
+                "type": "named",
+                "data": {
+                  "name": "Pivot to Score"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "Score"
+          }
+        },
+        {
+          "type": "parallel",
+          "data": {
+            "commands": [
+              {
+                "type": "path",
+                "data": {
+                  "pathName": "Path 2.1"
+                }
+              },
+              {
+                "type": "named",
+                "data": {
+                  "name": "Pick Up Ring"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "parallel",
+          "data": {
+            "commands": [
+              {
+                "type": "path",
+                "data": {
+                  "pathName": "Path 2.2"
+                }
+              },
+              {
+                "type": "named",
+                "data": {
+                  "name": "Pivot to Score"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "Score"
+          }
+        },
+        {
+          "type": "parallel",
+          "data": {
+            "commands": [
+              {
+                "type": "path",
+                "data": {
+                  "pathName": "Path 2.3"
+                }
+              },
+              {
+                "type": "named",
+                "data": {
+                  "name": "Pick Up Ring"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "parallel",
+          "data": {
+            "commands": [
+              {
+                "type": "path",
+                "data": {
+                  "pathName": "Path 2.4"
+                }
+              },
+              {
+                "type": "named",
+                "data": {
+                  "name": "Pivot to Score"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "Score"
+          }
+        },
+        {
+          "type": "parallel",
+          "data": {
+            "commands": [
+              {
+                "type": "path",
+                "data": {
+                  "pathName": "Path 2.5"
+                }
+              },
+              {
+                "type": "named",
+                "data": {
+                  "name": "Pick Up Ring"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "parallel",
+          "data": {
+            "commands": [
+              {
+                "type": "path",
+                "data": {
+                  "pathName": "Path 2.6"
+                }
+              },
+              {
+                "type": "named",
+                "data": {
+                  "name": "Pivot to Score"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "Score"
+          }
+        }
+      ]
+    }
+  },
+  "folder": null,
+  "choreoAuto": false
+}
