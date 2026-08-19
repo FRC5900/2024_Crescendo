@@ -146,8 +146,8 @@ public final class Constants {
     public static final IdleMode kDrivingMotorIdleMode = IdleMode.kBrake;
     public static final IdleMode kTurningMotorIdleMode = IdleMode.kBrake;
 
-    public static final int kDrivingMotorCurrentLimit = 25; // amps
-    public static final int kTurningMotorCurrentLimit = 10; // amps
+    public static final int kDrivingMotorCurrentLimit = 25; // amps  Original 50
+    public static final int kTurningMotorCurrentLimit = 10; // amps  Original 20
   }
 
   public static final class OIConstants {
